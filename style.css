@@ -233,57 +233,6 @@ h3{
     cursor: pointer;
 }
 
-/*-------- top anime PAGE-----*/
-
-.anime{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
- 
-}
-
-.anime-col{
-    flex-basis: 32%;
-    border-radius: 20px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-   
-
-    
-    
-}
-
-.anime-col img{
-    width:200px;
-    display: flex;
-  
-   
- 
-    
-
-}
-
-.layer{
-    
-    height: 100%;
-    width: 200px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 1s;
-}
-.layer:hover{
-    background: rgba(226,0,0,0.7);
-}
-.txt{
-    width: 200%;
-    margin: auto;
-    text-align: right;
-    padding-top: 0px;
-    padding-left: 120%;
-}
 
 
 /*----- login------*/
