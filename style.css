@@ -326,3 +326,46 @@ h3{
     width: 25px; 
     text-align: center;
 }
+
+
+/*----- gallery------*/
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+    position: relative;
+    
+
+}
+
+.hero .photo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px ;
+    
+}
+
+.photo img{
+    height: 350px;
+    width: 250px;
+    border: 1px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    cursor: pointer;
+    object-fit: cover;
+    transition: 0.3s linear;
+    
+
+}
+.photo img:hover{
+    transform: scale(1.05); 
+    
+
+}
+
+
+
