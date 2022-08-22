@@ -318,3 +318,93 @@ h3{
 
 
 
+/*---------contact page ---------*/
+
+.form{
+    width: 90%;
+
+}
+
+.contact{ 
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%; 
+    width: 500px;
+    align-items: center;
+   
+}
+
+
+
+.input-grp{
+    margin-bottom: 30px;
+    position: relative;
+
+}
+.input-grp input{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    font-size: 15px;
+    position: relative;
+}
+
+
+.input-grp textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    font-size: 15px;
+    position: relative;
+
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: white;
+    cursor: text;
+    transition: 0.2s;
+
+}
+input:focus~label, input:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+textarea:focus~label, textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.button1{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    cursor: pointer;
+}
+.button1:hover{
+    color: red;
+    border: 1px solid;
+    transition: 0s;
+}
